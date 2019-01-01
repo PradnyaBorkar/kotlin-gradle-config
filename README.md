@@ -41,3 +41,25 @@ Simple application to setup kotlin with gradle. Below are the steps to create ko
    - In Kotlin 1.1.x, use kotlin-stdlib-jre7 and kotlin-stdlib-jre8 instead.
    
  - Example for kotlin with gradle build file is [here](https://github.com/PradnyaBorkar/kotlin-gradle-config/blob/master/build.gradle)
+-------------------------------------------
+## Developers: Getting Started
+
+```sh
+# Install Homebrew (see https://brew.sh).
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Java 8.
+brew tap caskroom/versions
+brew cask install java8
+
+# Checkout the monorepo:
+git clone git@github.com:PradnyaBorkar/kotlin-gradle-config.git
+```
+### Running the Applications
+
+- Go inside `kotlin-gradle-config`
+- Open the project in IntelliJ IDEA
+  1. Tell it to overwrite `.idea`, then revert all changes IntelliJ made to that directory
+  2. You can run the test cases through IntelliJ or
+   run ```gradle build``` from terminal or commandprompt 
+
